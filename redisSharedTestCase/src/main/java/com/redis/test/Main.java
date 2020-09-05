@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
         Jedis jedis = RedisConnection.getConnection();
-        //分布式锁的正确姿势
-        jedis.set("","", SetParams.setParams().nx());
+
+
     }
 }

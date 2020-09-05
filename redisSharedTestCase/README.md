@@ -51,5 +51,13 @@ cd src
 
 
 
+links：
+<a href="http://redis.cn/" target="_blank">redis中文官网</a>
+<br>
+<a href="http://redis.cn/commands/expire.html" target="_blank">keys的淘汰策略</a>
+<br>
+<a href="http://redis.cn/topics/distlock.html" target="_blank">Redis分布式锁</a>
+<br>
 
-links：[redis中文官网](http://redis.cn/){:target="_blank"}
+     
+          
