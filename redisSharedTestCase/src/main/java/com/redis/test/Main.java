@@ -1,7 +1,9 @@
 package com.redis.test;
 
+import com.redis.test.redis.connection.RedisConnection;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.params.SetParams;
 
 /**
  * @author: 425324438@qq.com
@@ -9,12 +11,10 @@ import redis.clients.jedis.JedisPool;
  * @Description:
  */
 public class Main {
-    public static String host = "localhost";
-    public static int port = 6379;
 
     public static void main(String[] args) {
-        JedisPool jedisPool = new JedisPool(host,port);
-        Jedis jedis = jedisPool.getResource();
-
+        Jedis jedis = RedisConnection.getConnection();
+        //分布式锁的正确姿势
+        jedis.set("","", SetParams.setParams().nx());
     }
 }

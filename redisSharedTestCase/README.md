@@ -2,6 +2,7 @@
 
 ## 阅读代码前准备
 
+* jdk 1.8
 * 安装redis
 
 下载、解压、编译Redis
@@ -51,4 +52,4 @@ cd src
 
 
 
-links：[redis中文官网](http://redis.cn/)
+links：[redis中文官网](http://redis.cn/){:target="_blank"}
