@@ -24,10 +24,15 @@ public class RedisString {
 
 
         /**
-         * 分布式锁的正确姿势
-         * 对应的命令 SET lock_key VALUE NX
+         * 分布式锁简单实现
+         * 对应的命令 SET lock_key VALUE NX EX单位时秒
+         *
+         * EX seconds – 设置键key的过期时间，
+         * PX milliseconds – 设置键key的过期时间，单位时毫秒
+         * NX – 只有键key不存在的时候才会设置key的值
+         * XX – 只有键key存在的时候才会设置key的值
          */
-        jedis.set("","", SetParams.setParams().nx());
+        jedis.set("lock_key","lock_value[通常设置为=当前时间+过期时间]", SetParams.setParams().nx().ex(1000));
     }
     /**
      * keys的淘汰策略    http://redis.cn/commands/expire.html
