@@ -1,4 +1,4 @@
-package com.redis.test;
+package com.redis.test.key.type;
 
 import com.redis.test.redis.connection.RedisConnection;
 import redis.clients.jedis.Jedis;
