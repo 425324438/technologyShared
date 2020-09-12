@@ -6,6 +6,10 @@ import redis.clients.jedis.params.SetParams;
 
 import javax.xml.ws.RequestWrapper;
 import java.io.IOException;
+import java.util.Random;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author: 425324438@qq.com
@@ -15,8 +19,6 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-        Jedis jedis = RedisConnection.getConnection();
-
 
     }
 }

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ac3a83-8442-4745-9d75-302366839a7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/RedisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/RedisString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisSharedTestCase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redisSharedTestCase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisList.java" beforeDir="false" afterPath="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redisSharedTestCase/target/classes/com/redis/test/key/type/RedisList.class" beforeDir="false" afterPath="$PROJECT_DIR$/redisSharedTestCase/target/classes/com/redis/test/key/type/RedisList.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,46 +26,49 @@
     <session id="-1804669874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
+          <entry key="class" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="14" />
-          <entry key="md" value="5" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="49" />
+          <entry key="kt" value="1" />
+          <entry key="md" value="6" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
+          <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="14" />
-          <entry key="Markdown" value="5" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="49" />
+          <entry key="Kotlin" value="1" />
+          <entry key="Markdown" value="6" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="531" />
+          <entry key="java" value="3020" />
           <entry key="md" value="236" />
           <entry key="txt" value="6" />
-          <entry key="xml" value="12" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="1" />
-          <entry key="JAVA" value="531" />
+          <entry key="JAVA" value="3020" />
           <entry key="Markdown" value="235" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -74,16 +82,42 @@
         <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/RedisString.java">
+        <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="66" lean-forward="true" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+              <folding>
+                <element signature="docComment;class#RedisDelayQueueTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +127,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -123,12 +158,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/redisSharedTestCase/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/redis/connection/RedisConnection.java" />
-        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java" />
         <option value="$PROJECT_DIR$/redisSharedTestCase/README.md" />
         <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/RedisString.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisSet.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisZset.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisHash.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisBitMpas.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisHyperloglogs.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisGeoHash.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisString.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisList.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisDelayQueue.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/pom.xml" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueueTest.java" />
+        <option value="$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueue.java" />
       </list>
     </option>
   </component>
@@ -171,7 +217,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="runMavenInBackground" value="false" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
@@ -214,7 +261,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -258,10 +304,32 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="technologyShared" type="b2602c69:ProjectViewProjectNode" />
+              <item name="technologyShared" type="462c0819:PsiDirectoryNode" />
+              <item name="redisSharedTestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technologyShared" type="b2602c69:ProjectViewProjectNode" />
+              <item name="technologyShared" type="462c0819:PsiDirectoryNode" />
+              <item name="redisSharedTestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
+              <item name="delayqueue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,10 +345,10 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599377281813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599903479393" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
@@ -302,13 +370,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RedisDelayQueueTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.redis.test.Main" />
       <module name="redisSharedTestCase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.test.*" />
+          <option name="PATTERN" value="com.redis.test.key.type.delayqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,9 +384,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisDelayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.redis.test.key.type.delayqueue.RedisDelayQueueTest" />
+      <module name="redisSharedTestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.test.key.type.delayqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.redis.test.key.type.RedisList" />
+      <module name="redisSharedTestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.test.key.type.delayqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RedisList" />
+      <item itemvalue="Application.RedisDelayQueueTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedisDelayQueueTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RedisList" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +435,8 @@
       <updated>1598773712261</updated>
       <workItem from="1598773716653" duration="2452000" />
       <workItem from="1599283168655" duration="587000" />
-      <workItem from="1599293995519" duration="2441000" />
+      <workItem from="1599293995519" duration="3543000" />
+      <workItem from="1599892763178" duration="9393000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1599283180698</created>
@@ -357,17 +459,23 @@
       <option name="project" value="LOCAL" />
       <updated>1599296090480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="redis">
+      <created>1599399479114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599399479114</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5480000" />
+    <option name="totallyTimeSpent" value="15975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="23" width="1440" height="837" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726027" visible="true" weight="0.19384836" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726027" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" sideWeight="0.5027397" side_tool="true" weight="0.23962805" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -376,7 +484,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66442955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,6 +518,18 @@
     <MESSAGE value="redis" />
     <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueueTest.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,13 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -495,37 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/commands/JedisCommands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/redis/connection/RedisConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="275">
-            <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -548,27 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/BinaryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/Jedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/params/SetParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -576,10 +637,283 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/RedisString.java">
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="615">
+            <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisZset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisBitMpas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisHyperloglogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisGeoHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/redis/connection/RedisConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/commands/JedisCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="261" column="9" lean-forward="true" selection-start-line="261" selection-start-column="9" selection-end-line="261" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="1882" column="17" selection-start-line="1882" selection-start-column="17" selection-end-line="1882" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/BinaryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="364" column="10" lean-forward="true" selection-start-line="364" selection-start-column="10" selection-end-line="364" selection-end-column="10" />
+          <folding>
+            <element signature="e#9511#9512#0" expanded="true" />
+            <element signature="e#9543#9544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="306" column="6" selection-start-line="306" selection-start-column="6" selection-end-line="306" selection-end-column="6" />
+          <folding>
+            <element signature="e#8117#8118#0" expanded="true" />
+            <element signature="e#8156#8157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/deleayqueue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/TypeReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+          <folding>
+            <element signature="e#3835#3836#0" expanded="true" />
+            <element signature="e#3867#3868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="2148" column="21" selection-start-line="2148" selection-start-column="21" selection-end-line="2148" selection-end-column="21" />
+          <folding>
+            <element signature="e#125981#125982#0" expanded="true" />
+            <element signature="e#126033#126034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="446" column="11" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="66" lean-forward="true" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="docComment;class#RedisDelayQueueTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/delayqueue/RedisDelayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -588,6 +922,18 @@
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -608,8 +954,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 2.7 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -621,11 +980,24 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>JDK1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>redisSharedTestCase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -645,6 +1017,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.73</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
