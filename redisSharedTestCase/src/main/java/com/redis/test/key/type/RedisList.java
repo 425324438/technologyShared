@@ -11,7 +11,6 @@ import java.util.List;
  * @Description: 使用redis的list实现消息队列
  */
 public class RedisList {
-    public static String MSG_PIPELINE="MSG_PIPELINE";
     public static void main(String[] args) {
 
         //启动生产者
@@ -19,20 +18,19 @@ public class RedisList {
 
         //启动消费者
         new Thread(new Consumer()).start();
-
     }
 }
 
 class Producer implements Runnable{
 
+    @Override
     public void run() {
         Jedis jedis = RedisConnection.getConnection();
-
         int i =0;
         while (true){
             String s = String.valueOf(i++);
             //生产者往队列里写入数据
-            jedis.rpush(RedisList.MSG_PIPELINE, s);
+            jedis.rpush("MSG_PIPELINE", s);
             System.out.println("Producer write in reds = "+ s);
             try {
                 Thread.sleep(200);
@@ -45,6 +43,7 @@ class Producer implements Runnable{
 
 class Consumer implements Runnable{
 
+    @Override
     public void run() {
         //消费者使用阻塞读来实现未读取到消息时线程等待
         Jedis jedis = RedisConnection.getConnection();
@@ -54,7 +53,7 @@ class Consumer implements Runnable{
              *             并且再次重试获取队列中的消息
              * String key  redis List 的key
              */
-            List<String> rpop = jedis.brpop(10,RedisList.MSG_PIPELINE);
+            List<String> rpop = jedis.brpop(10,"MSG_PIPELINE");
             System.out.println("Consumer read redis = "+rpop);
         }
     }
