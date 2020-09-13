@@ -31,7 +31,7 @@ class Producer implements Runnable{
             String s = String.valueOf(i++);
             //生产者往队列里写入数据
             jedis.rpush("MSG_PIPELINE", s);
-            System.out.println("Producer write in reds = "+ s);
+            System.out.println("Producer write in redis = "+ s);
             try {
                 Thread.sleep(200);
             } catch (InterruptedException e) {

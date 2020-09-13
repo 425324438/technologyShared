@@ -2,32 +2,34 @@ package com.redis.test.key.type.delayqueue;
 
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.TypeReference;
 import com.redis.test.redis.connection.RedisConnection;
 import redis.clients.jedis.Jedis;
 
-import java.lang.reflect.Type;
 import java.util.Set;
-import java.util.UUID;
 
 /**
  * @author: 425324438@qq.com
  * @Date: 2020/9/12 15:47
  * @Description: redis实现的延时队列
  */
-public class RedisDelayQueue<T> {
+public class RedisDelayQueue<T>  {
 
-    public RedisDelayQueue(String queueKey) {
-        this.queueKey = queueKey;
-    }
-
+    /**
+     * 消息体
+     */
     static class TaskItem<T> {
         private T msg;
         private int delayScore;
     }
 
-
+    /**
+     * 队列名称
+     */
     private String queueKey;
+
+    public RedisDelayQueue(String queueKey) {
+        this.queueKey = queueKey;
+    }
 
     /**
      * 往队列写入消息
@@ -55,6 +57,7 @@ public class RedisDelayQueue<T> {
             Set<String> values = jedis.zrangeByScore(queueKey, 0, System.currentTimeMillis(), 0, 1);
             if (values.isEmpty()){
                 try {
+                    System.out.println("consumer没有读取到数据，线程休眠");
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     System.out.println("线程被打断");
@@ -71,5 +74,4 @@ public class RedisDelayQueue<T> {
             }
         }
     }
-
 }
