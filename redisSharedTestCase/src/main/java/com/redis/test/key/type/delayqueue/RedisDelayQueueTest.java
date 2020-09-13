@@ -15,7 +15,7 @@ public class RedisDelayQueueTest {
     public static void main(String[] args) throws InterruptedException {
         Jedis jedis = RedisConnection.getConnection();
         jedis.del("delay_q");
-        final RedisDelayQueue<String> queue = new RedisDelayQueue<>( "delay_q");
+        RedisDelayQueue<String> queue = new RedisDelayQueue<>( "delay_q");
 
         //创建生产者线程池
         ThreadPoolExecutor producer = new ThreadPoolExecutor(3, 9, 60L, TimeUnit.SECONDS,
@@ -31,13 +31,11 @@ public class RedisDelayQueueTest {
             });
         }
 
-
         //创建消费者线程池
         ThreadPoolExecutor consumer = new ThreadPoolExecutor(3, 6, 60L, TimeUnit.SECONDS,
                 new LinkedBlockingQueue<Runnable>(100));
 
         consumer.execute(()->{
-            System.out.println("consumer线程");
             queue.loop();
         });
 
