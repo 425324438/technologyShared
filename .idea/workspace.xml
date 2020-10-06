@@ -44,7 +44,7 @@
         <counts>
           <entry key="class" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="71" />
+          <entry key="java" value="72" />
           <entry key="kt" value="1" />
           <entry key="md" value="6" />
           <entry key="xml" value="3" />
@@ -54,7 +54,7 @@
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="72" />
           <entry key="Kotlin" value="1" />
           <entry key="Markdown" value="6" />
           <entry key="XML" value="3" />
@@ -63,18 +63,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="3867" />
+          <entry key="java" value="3887" />
           <entry key="md" value="236" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="33" />
           <entry key="xml" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="1" />
-          <entry key="JAVA" value="3867" />
+          <entry key="JAVA" value="3887" />
           <entry key="Markdown" value="235" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="45" />
         </counts>
       </usages-collector>
@@ -88,11 +88,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisHyperloglogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="242">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/redis/connection/RedisConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -314,7 +323,7 @@
     <property name="SearchEverywhereHistoryKey" value="RedisHyperloglogs&#9;PSI&#9;JAVA://com.redis.test.key.type.RedisHyperloglogs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601983649749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601992986108" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -438,7 +447,7 @@
       <workItem from="1599892763178" duration="10264000" />
       <workItem from="1599965399900" duration="5019000" />
       <workItem from="1600605289791" duration="1555000" />
-      <workItem from="1601968416117" duration="2039000" />
+      <workItem from="1601968416117" duration="2546000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1599283180698</created>
@@ -503,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601968821336</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="redis HyperLogLog">
+      <created>1601983664985</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601983664985</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25459000" />
+    <option name="totallyTimeSpent" value="25966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="838" extended-state="0" />
@@ -556,7 +572,8 @@
     <MESSAGE value="redis" />
     <MESSAGE value="redis 延迟队列" />
     <MESSAGE value="redis bitMpas" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis bitMpas" />
+    <MESSAGE value="redis HyperLogLog" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis HyperLogLog" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -782,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/redis/connection/RedisConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -887,10 +897,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/redis/connection/RedisConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redisSharedTestCase/src/main/java/com/redis/test/key/type/RedisHyperloglogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="242">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
