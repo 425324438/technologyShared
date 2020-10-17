@@ -2,8 +2,6 @@ package com.redis.test.key.type;
 
 import com.redis.test.redis.connection.RedisConnection;
 import redis.clients.jedis.Jedis;
-
-import java.util.HashMap;
 import java.util.UUID;
 
 /**
