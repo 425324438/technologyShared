@@ -45,6 +45,7 @@ public class RedisDelayQueue<T>  {
         System.out.println("producer线程池id="+Thread.currentThread().getId()+",写入延迟队列，val="+JSON.toJSONString(task));
         //塞入延迟队列
         jedis.zadd(queueKey,System.currentTimeMillis() + delayScore, s);
+        jedis.close();
     }
 
     /**
