@@ -59,5 +59,6 @@ public class RedisGeoHash {
         List<GeoRadiusResponse> byitude = jedis.georadiusReadonly(key, 116.514202, 39.905409, 20, GeoUnit.KM,param1);
         System.out.println("根据坐标查询="+JSON.toJSONString(byitude));
 
+        jedis.close();
     }
 }

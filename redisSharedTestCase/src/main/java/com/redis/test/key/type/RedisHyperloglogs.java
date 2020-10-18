@@ -21,5 +21,7 @@ public class RedisHyperloglogs {
         //获取统计数据
         long pfcount = jedis.pfcount("keypf");
         System.out.println("1000次写入，count的结果="+pfcount);
+
+        jedis.close();
     }
 }

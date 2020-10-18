@@ -52,8 +52,8 @@ public class RedisDelayQueue<T>  {
      */
     public void loop(){
         System.out.println("consumer线程id="+Thread.currentThread().getId()+"启动");
+        Jedis jedis = RedisConnection.getConnection();
         while (!Thread.interrupted()){
-            Jedis jedis = RedisConnection.getConnection();
             Set<String> values = jedis.zrangeByScore(queueKey, 0, System.currentTimeMillis(), 0, 1);
             if (values.isEmpty()){
                 try {
@@ -73,5 +73,6 @@ public class RedisDelayQueue<T>  {
                 System.out.println("线程池id="+Thread.currentThread().getId()+",获取到了消息："+taskItem.msg);
             }
         }
+        jedis.close();
     }
 }

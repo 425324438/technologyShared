@@ -39,5 +39,7 @@ public class RedisDelayQueueTest {
             queue.loop();
         });
 
+        jedis.close();
+
     }
 }

@@ -28,5 +28,6 @@ public class RedisBloomFilter {
         }
 
 
+        bfClient.close();
     }
 }

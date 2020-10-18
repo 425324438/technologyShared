@@ -34,6 +34,7 @@ public class RedisBitMaps {
         System.out.println("第一天签到的时间= "+jedis.bitpos(signIn,true,new BitPosParams(0)));
         System.out.println("查询第19天是否签到= "+jedis.getbit(signIn,19L));
 
+        jedis.close();
     }
 
     public static boolean randomBool(){

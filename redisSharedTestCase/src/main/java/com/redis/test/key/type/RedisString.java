@@ -33,6 +33,7 @@ public class RedisString {
          * XX – 只有键key存在的时候才会设置key的值
          */
         jedis.set("lock_key","lock_value[通常设置为=当前时间+过期时间]", SetParams.setParams().nx().ex(1000));
+        jedis.close();
     }
     /**
      * keys的淘汰策略    http://redis.cn/commands/expire.html
