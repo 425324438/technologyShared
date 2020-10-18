@@ -39,21 +39,22 @@ public class RedisGeoHash {
 
         //根据member查询附件元素
         GeoRadiusParam param = new GeoRadiusParam();
-        //查询个数
+            //查询个数
         param.count(1);
-        //正序
+            //正序
         param.sortAscending();
-        //显示距离
+            //显示距离
         param.withDist();
         List<GeoRadiusResponse> xiaomi = jedis.georadiusByMember(key, "xiaomi", 20, GeoUnit.KM, param);
         System.out.println("距离小米最近的="+JSON.toJSONString(xiaomi));
 
         //根据坐标查询附件元素
         GeoRadiusParam param1 = new GeoRadiusParam();
+            //查询两条
         param1.count(2);
-        //倒序
+            //倒序
         param1.sortDescending();
-        //显示距离
+            //显示距离
         param1.withDist();
         List<GeoRadiusResponse> byitude = jedis.georadiusReadonly(key, 116.514202, 39.905409, 20, GeoUnit.KM,param1);
         System.out.println("根据坐标查询="+JSON.toJSONString(byitude));
